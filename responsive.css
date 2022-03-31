@@ -1,0 +1,114 @@
+/* タブレット版のスタイル開始 */
+@media screen and (max-width: 900px) {
+  /* header開始 */
+  header h1 {
+    font-size: 32px;
+  }
+  /* header終了 */
+
+  /* main開始 */
+
+  /* profile開始 */
+  .profile {
+    padding-top: 60px;
+  }
+  .profile .profile-content {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+  }
+  .profile .profile-content .profile-content-left {
+    width: 100%;
+  }
+  .profile .profile-content .profile-content-right {
+    width: 100%;
+  }
+  .profile .profile-content .profile-content-right h3 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  /* profile終了 */
+
+  /* skills開始 */
+  .skills {
+    padding-top: 60px;
+  }
+  .skills .skills-item-wrapper {
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+
+  /* skills終了 */
+
+  /* works開始 */
+  .works{
+    padding-top: 60px;
+  }
+  .works .works-item-wrapper .works-item{
+    width: 45%;
+    /* min-width: 300px; */
+    height: 250px;
+    background-color: gray;
+  }
+  /* works終了 */
+
+  /* main終了 */
+}
+/* タブレット版のスタイル終了 */
+
+/* スマートフォン版のスタイル開始 */
+@media screen and (max-width: 500px) {
+  /* header開始 */
+  header h1 br {
+    display: block;
+  }
+  /* header終了 */
+
+  /* main開始 */
+
+  /* strengths開始 */
+  .strengths .strengths-item{
+    flex-direction: column;
+  }
+  .strengths .reverse{
+    flex-direction: column;
+  }
+  .strengths .strengths-item .strengths-item-left{
+    width: 100%;
+  }
+  .strengths .strengths-item .strengths-item-right{
+    width: 100%;
+  }
+  /* strengths終了 */
+
+  /* works開始 */
+  .works .works-item-wrapper .works-item{
+    width: 100%;
+    height: 250px;
+  }
+  /* works終了 */
+
+  /* contact開始 */
+  .contact .contact-text{
+    font-size: 18px;
+  }
+  .contact .contact-btn{
+    background-color: #fff;
+    padding: 20px 0px;
+    color: red;
+    text-decoration: none;
+    transition: opacity .3s;
+    min-width: 0px;
+    width: 80%;
+
+  }
+  .contact .contact-btn:hover{
+    opacity: .8;
+  }
+  /* contact終了 */
+
+  /* main終了 */
+}
+/* スマートフォン版のスタイル終了 */

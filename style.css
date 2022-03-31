@@ -1,0 +1,301 @@
+/* リセットcss開始 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* リセットcss終了 */
+
+/* 共通クラス開始 */
+img{
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+h2 span{
+  font-size: 16px;
+  color: #999;
+  font-family: cursive;
+}
+h2 span::before{
+  content: '~';
+  padding-right: 5px;
+}
+h2 span::after{
+  content: '~';
+  padding-left: 5px;
+}
+/* 共通クラス終了 */
+
+/* header開始 */
+header{
+
+}
+header h1{
+  padding-top: 300px;
+  padding-bottom: 300px;
+  text-align: center;
+  font-size: 40px;
+}
+header h1 br{
+  display: none;
+}
+header h1 .orange{
+  color: orange;
+}
+
+/* nav開始 */
+header .nav{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: right;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header .nav li a{
+  text-decoration: none;
+  color: #000;
+  transition: color .2s;
+}
+header .nav li a:hover{
+  color: red;
+}
+/* nav終了 */
+/* header終了 */
+
+
+/* main開始 */
+main{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* profile開始 */
+.profile{
+  padding-top: 100px;
+
+}
+.profile h2{
+  text-align: center;
+  font-size: 30px;
+}
+.profile h2 span{
+  font-size: 16px;
+  color: #999;
+  font-family: cursive;
+}
+.profile h2 span::before{
+  content: '~';
+  padding-right: 5px;
+}
+.profile h2 span::after{
+  content: '~';
+  padding-left: 5px;
+}
+
+.profile .profile-content{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 50px;
+}
+.profile .profile-content .profile-content-left{
+  width: 50%;
+}
+.profile .profile-content .profile-content-left img{
+  border-radius: 20px;
+}
+.profile .profile-content .profile-content-right{
+  width: 50%;
+}
+.profile .profile-content .profile-content-right h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.profile .profile-content .profile-content-right .right-text{
+  line-height: 2rem;
+}
+/* profile終了 */
+
+
+/* skills開始 */
+.skills{
+  padding-top: 100px;
+}
+.skills .skills-item-wrapper{
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.skills .skills-item-wrapper .skills-item h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.skills .skills-item-wrapper .skills-item .text{
+  line-height: 2rem;
+}
+
+/* skills終了 */
+
+
+/* strengths開始 */
+.strengths{
+  padding-top: 100px;
+}
+.strengths .strengths-item{
+  display: flex;
+  align-items: center;
+}
+.strengths .reverse{
+  flex-direction: row-reverse;
+}
+.strengths .strengths-item .strengths-item-left{
+  width: 50%;
+}
+.strengths .strengths-item .strengths-item-right{
+  width: 50%;
+}
+.strengths .strengths-item .strengths-item-right .num{
+  font-size: 25px;
+  font-weight: bold;
+  color: orange;
+}
+.strengths .strengths-item .strengths-item-right h3{
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.strengths .strengths-item .strengths-item-right .text{
+  line-height: 2rem;
+}
+/* strengths終了 */
+
+
+/* works開始 */
+.works{
+  padding-top: 100px;
+}
+.works .works-item-wrapper{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+.works .works-item-wrapper .works-item{
+  width: 30%;
+  /* min-width: 300px; */
+  height: 250px;
+  background-color: gray;
+}
+.works .works-item-wrapper .works-item1{
+  background-image: url(./images/works1.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item2{
+  background-image: url(./images/works2.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item3{
+  background-image: url(./images/works4.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item4{
+  background-image: url(./images/works4.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item5{
+  background-image: url(./images/works5.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item6{
+  background-image: url(./images/works6.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item7{
+  background-image: url(./images/works7.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item8{
+  background-image: url(./images/works8.jpg);
+  background-size: cover;
+}
+.works .works-item-wrapper .works-item9{
+  background-image: url(./images/works9.jpg);
+  background-size: cover;
+}
+/* works終了 */
+
+
+/* contact開始 */
+.contact{
+  background-color: orange;
+  padding: 50px 0px 50px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+.contact .contact-text{
+  font-size: 20px;
+}
+.contact .contact-btn{
+  background-color: #fff;
+  padding: 30px 0px;
+  color: red;
+  display: block;
+  margin: 0 auto;
+  /* min-width: 350px; */
+  width: 50%;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.contact .contact-btn:hover{
+  opacity: .8;
+}
+/* contact終了 */
+
+/* main終了 */
+
+/* footer開始 */
+footer{
+  background-color: #aaa;
+  padding-top: 50px;
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer .footer-nav{
+  list-style-type: none;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+footer .footer-nav li a{
+  text-decoration: none;
+  color: #fff;
+  transition: color .2s;
+}
+footer .footer-nav li a:hover{
+  color: red;
+}
+footer .copyright{
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+/* footer終了 */
